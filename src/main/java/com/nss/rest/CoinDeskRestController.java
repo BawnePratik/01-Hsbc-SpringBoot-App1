@@ -10,6 +10,8 @@ import com.nss.service.CoinDeskClientService;
 @RestController
 public class CoinDeskRestController {
 
+	private String result = "";
+
 	@Autowired
 	private CoinDeskClientService coinDeskService;
 
