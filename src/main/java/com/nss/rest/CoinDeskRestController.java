@@ -22,4 +22,14 @@ public class CoinDeskRestController {
 		return restCall;
 	}
 
+	// Adding hello method as part of 543 story
+
+	@GetMapping(value = "/hello")
+	public String hello() {
+		String msg = "Hello World";
+
+		return msg;
+	}
+
+
 }
